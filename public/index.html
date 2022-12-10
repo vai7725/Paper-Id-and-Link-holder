@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Make the data for papers</h1>
+    <form action="" method="">
+      course name:
+      <input type="text" name="" id="" class="inputs" value="B.Sc B.Ed" />
+
+      course year:
+      <input
+        type="text"
+        name=""
+        id=""
+        class="inputs"
+        value="1st-year"
+        placeholder="1st-year"
+      />
+
+      subject: <input type="text" name="" id="subject" class="" />
+
+      year: <input type="text" name="" id="year" class="" value="2021" />
+
+      Paper Link:
+      <input type="text" name="" id="driveLink" class="" />
+
+      <button type="submit" class="btn">Make string</button>
+      <button type="reset">Reset</button>
+    </form>
+
+    <form action="/savepaper" method="post" class="mainform">
+      Paper name: <input type="text" name="paperName" id="paperName" readonly />
+
+      Paper Link:
+      <input type="text" name="paperLink" id="link" class="" readonly />
+
+      <button type="submit" class="" id="save">Store paper</button>
+    </form>
+    <div class="subString"></div>
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

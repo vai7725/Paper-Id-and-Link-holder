@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+}
+.inputs {
+  width: 50%;
+}
+.btn {
+  width: 50%;
+  background-color: rgb(15, 21, 41);
+  color: white;
+}
+
+.mainform {
+  background-color: beige;
+  padding: 2rem;
+}
